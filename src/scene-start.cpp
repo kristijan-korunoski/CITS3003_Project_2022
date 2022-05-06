@@ -351,6 +351,7 @@ void init(void) {
 
 //----------------------------------------------------------------------------
 
+// Contains Part B
 void drawMesh(SceneObject sceneObj) {
 
     // Activate a texture, loading if needed.
@@ -372,7 +373,10 @@ void drawMesh(SceneObject sceneObj) {
     // Set the model matrix - this should combine translation, rotation and scaling based on what's
     // in the sceneObj structure (see near the top of the program).
 
-    mat4 model = Translate(sceneObj.loc) * Scale(sceneObj.scale);
+    // Part B
+    mat4 RotObjXYZ = RotateX(sceneObj.angles[0]) * RotateY(sceneObj.angles[1]) * RotateZ(sceneObj.angles[2]);
+
+    mat4 model = Translate(sceneObj.loc) * RotObjXYZ * Scale(sceneObj.scale);
 
 
     // Set the model-view matrix for the shaders
@@ -395,6 +399,7 @@ void drawMesh(SceneObject sceneObj) {
 
 //----------------------------------------------------------------------------
 
+// Contians Part A
 void display(void) {
     numDisplayCalls++;
 
@@ -404,7 +409,8 @@ void display(void) {
     // Set the view matrix. To start with this just moves the camera
     // backwards.  You'll need to add appropriate rotations.
 
-    view = Translate(0.0, 0.0, -viewDist);
+    // Part A
+    view =  Translate(0.0, 0.0, -viewDist) * RotateX(camRotUpAndOverDeg) * RotateY(camRotSidewaysDeg);
 
     SceneObject lightObj1 = sceneObjs[1];
     vec4 lightPosition = view * lightObj1.loc;
@@ -451,6 +457,18 @@ static void groundMenu(int id) {
     deactivateTool();
     sceneObjs[0].texId = id;
     glutPostRedisplay();
+}
+
+// Part C functions
+// Part C Adjust ambient and diffuse light
+static void adjustAmbientDiffuse(vec2 ad){
+    sceneObjs[toolObj].ambient += 10 * ad[0];
+    sceneObjs[toolObj].diffuse += 10 * ad[1];
+}
+
+static void adjustSpecularShine(vec2 ss){
+    sceneObjs[toolObj].specular += 10 * ss[0];
+    sceneObjs[toolObj].shine -= 100 * ss[1];
 }
 
 static void adjustBrightnessY(vec2 by) {
@@ -506,6 +524,7 @@ static int createArrayMenu(int size, const char menuEntries[][128], void(*menuFn
     return menuId;
 }
 
+// Contains Part C
 static void materialMenu(int id) {
     deactivateTool();
     if (currObject < 0) return;
@@ -514,9 +533,12 @@ static void materialMenu(int id) {
         setToolCallbacks(adjustRedGreen, mat2(1, 0, 0, 1),
                          adjustBlueBrightness, mat2(1, 0, 0, 1));
     }
-        // You'll need to fill in the remaining menu items here.
+    // You'll need to fill in the remaining menu items here.
+    // Part C
     else {
-        printf("Error in materialMenu\n");
+        toolObj = currObject;
+        setToolCallbacks(adjustAmbientDiffuse, mat2(1, 0, 0, 1),
+                         adjustSpecularShine, mat2(1, 0, 0, 1));
     }
 }
 
@@ -546,12 +568,15 @@ static void mainmenu(int id) {
     if (id == 99) exit(0);
 }
 
+// Contains Part C
 static void makeMenu() {
     int objectId = createArrayMenu(numMeshes, objectMenuEntries, objectMenu);
 
     int materialMenuId = glutCreateMenu(materialMenu);
     glutAddMenuEntry("R/G/B/All", 10);
-    glutAddMenuEntry("UNIMPLEMENTED: Ambient/Diffuse/Specular/Shine", 20);
+
+    // Part C
+    glutAddMenuEntry("Ambient/Diffuse/Specular/Shine", 20);
 
     int texMenuId = createArrayMenu(numTextures, textureMenuEntries, texMenu);
     int groundMenuId = createArrayMenu(numTextures, textureMenuEntries, groundMenu);
@@ -636,12 +661,26 @@ void reshape(int width, int height) {
     //         that the same part of the scene is visible across the width of
     //         the window.
 
-    GLfloat nearDist = 0.2;
-    projection = Frustum(-nearDist * (float) width / (float) height,
-                         nearDist * (float) width / (float) height,
-                         -nearDist, nearDist,
-                         nearDist, 100.0);
+    // Part D
+    GLfloat nearDist = 0.01;
+    // Part E
+    if (width >= height) {
+        projection = Frustum(-nearDist * (float) width / (float) height,
+                            nearDist * (float) width / (float) height,
+                            -nearDist, 
+                            nearDist,
+                            nearDist, 
+                            100.0);
+    } else {
+        projection = Frustum(-nearDist,
+                            nearDist,
+                            -nearDist * (float) height / (float) width, 
+                            nearDist * (float) height / (float) width,
+                            nearDist, 
+                            100.0);
+    }
 }
+    
 
 //----------------------------------------------------------------------------
 
