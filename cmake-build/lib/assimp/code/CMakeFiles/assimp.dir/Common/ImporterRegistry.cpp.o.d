@@ -1,10 +1,10 @@
 lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/Common/ImporterRegistry.cpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/anim.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/defs.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/include/assimp/config.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/types.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/Common/ImporterRegistry.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/anim.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/defs.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/include/assimp/config.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -108,7 +108,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
@@ -139,10 +139,10 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
@@ -397,19 +397,19 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/MathFunctions.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/BaseImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Exceptional.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultIOStream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOStream.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/importerdesc.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/TinyFormatter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/MathFunctions.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/BaseImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Exceptional.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultIOStream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOStream.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/importerdesc.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/TinyFormatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
@@ -440,7 +440,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ProgressHandler.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ProgressHandler.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
@@ -448,103 +448,103 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/X/XFileImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/X/XFileImporter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/X/XFileHelper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/mesh.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/aabb.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/AMF/AMFImporter.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/AMF/AMFImporter_Node.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/scene.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/texture.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/./Compiler/pushpack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/./Compiler/poppack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/light.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/camera.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/material.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/material.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/metadata.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/X/XFileHelper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/mesh.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/aabb.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/AMF/AMFImporter.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/AMF/AMFImporter_Node.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/scene.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/texture.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/./Compiler/pushpack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/./Compiler/poppack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/light.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/camera.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/material.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/material.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/metadata.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/XmlParser.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ai_assert.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultLogger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/LogStream.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Logger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/NullLogger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/pugixml/src/pugixml.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/pugixml/src/pugiconfig.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/pugixml/src/pugixml.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/XmlParser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ai_assert.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/LogStream.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Logger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/NullLogger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/pugixml/src/pugixml.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/pugixml/src/pugiconfig.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/pugixml/src/pugixml.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/float.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/3DS/3DSLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/3DS/3DSHelper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/SmoothingGroups.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/SmoothingGroups.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/SGSpatialSort.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/SpatialSort.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/StringUtils.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/3DS/3DSLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/3DS/3DSHelper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/SmoothingGroups.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/SmoothingGroups.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/SGSpatialSort.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/SpatialSort.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/StringUtils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/qnan.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Compiler/pushpack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Compiler/poppack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/StreamReader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ByteSwapper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD3/MD3Loader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD3/MD3FileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/StringComparison.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDL/MDLLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDL/MDLFileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/HMP/HalfLifeFileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD2/MD2Loader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD2/MD2FileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Ply/PlyLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Ply/PlyParser.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ParsingUtils.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOStreamBuffer.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/ASE/ASELoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/ASE/ASEParser.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Obj/ObjFileImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/HMP/HMPLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/HMP/HMPFileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/SMD/SMDLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDC/MDCLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDC/MDCFileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD5/MD5Loader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MD5/MD5Parser.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/STL/STLLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/LWO/LWOLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/LWO/LWOFileData.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/LWO/LWOAnimation.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/Common/IFF.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/DXF/DXFLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/NFF/NFFLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Raw/RawLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/SIB/SIBImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/OFF/OFFLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/AC/ACLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/BVH/BVHLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Irr/IRRMeshLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Irr/IRRShared.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Irr/IRRLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/Common/Importer.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/SceneCombiner.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Q3D/Q3DLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/B3D/B3DImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Collada/ColladaLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Collada/ColladaParser.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Collada/ColladaHelper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Terragen/TerragenLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/CSM/CSMLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Unreal/UnrealLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/LWS/LWSLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Ogre/OgreImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Ogre/OgreParsingUtils.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Ogre/OgreStructs.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/MemoryIOWrapper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOSystem.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/qnan.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Compiler/poppack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/StreamReader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ByteSwapper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD3/MD3Loader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD3/MD3FileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/StringComparison.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDL/MDLLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDL/MDLFileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/HMP/HalfLifeFileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD2/MD2Loader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD2/MD2FileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Ply/PlyLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Ply/PlyParser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ParsingUtils.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOStreamBuffer.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/ASE/ASELoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/ASE/ASEParser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Obj/ObjFileImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/HMP/HMPLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/HMP/HMPFileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/SMD/SMDLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDC/MDCLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDC/MDCFileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD5/MD5Loader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MD5/MD5Parser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/STL/STLLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/LWO/LWOLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/LWO/LWOFileData.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/LWO/LWOAnimation.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/Common/IFF.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/DXF/DXFLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/NFF/NFFLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Raw/RawLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/SIB/SIBImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/OFF/OFFLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/AC/ACLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/BVH/BVHLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Irr/IRRMeshLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Irr/IRRShared.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Irr/IRRLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/Common/Importer.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/SceneCombiner.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Q3D/Q3DLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/B3D/B3DImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Collada/ColladaLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Collada/ColladaParser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Collada/ColladaHelper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Terragen/TerragenLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/CSM/CSMLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Unreal/UnrealLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/LWS/LWSLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Ogre/OgreImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Ogre/OgreParsingUtils.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Ogre/OgreStructs.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/MemoryIOWrapper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOSystem.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_filesec_t.h \
@@ -556,31 +556,31 @@ lib/assimp/code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/gethostuuid.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MS3D/MS3DLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/COB/COBLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Blender/BlenderLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/LogAux.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/NDO/NDOLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/IFC/IFCLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/XGL/XGLLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Importer.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/FBX/FBXImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/FBX/FBXImportSettings.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/Assbin/AssbinLoader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/glTF/glTFImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultIOSystem.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/glTF2/glTF2Importer.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/3MF/D3MFImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/X3D/X3DImporter.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/X3D/X3DImporter_Node.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MMD/MMDImporter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MMD/MMDPmxParser.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MS3D/MS3DLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/COB/COBLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Blender/BlenderLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/LogAux.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/NDO/NDOLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/IFC/IFCLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/XGL/XGLLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Importer.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/FBX/FBXImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/FBX/FBXImportSettings.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/Assbin/AssbinLoader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/glTF/glTFImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/glTF2/glTF2Importer.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/3MF/D3MFImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/X3D/X3DImporter.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/X3D/X3DImporter_Node.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MMD/MMDImporter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MMD/MMDPmxParser.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MMD/MMDCpp14.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/IQM/IQMImporter.h
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MMD/MMDCpp14.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/IQM/IQMImporter.h

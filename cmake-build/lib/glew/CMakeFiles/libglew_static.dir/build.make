@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project
+CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build
+CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build
 
 # Include any dependencies generated for this target.
 include lib/glew/CMakeFiles/libglew_static.dir/depend.make
@@ -72,16 +72,16 @@ include lib/glew/CMakeFiles/libglew_static.dir/flags.make
 lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o: lib/glew/CMakeFiles/libglew_static.dir/flags.make
 lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o: ../lib/glew/src/glew.c
 lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o: lib/glew/CMakeFiles/libglew_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o -MF CMakeFiles/libglew_static.dir/src/glew.c.o.d -o CMakeFiles/libglew_static.dir/src/glew.c.o -c /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o"
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o -MF CMakeFiles/libglew_static.dir/src/glew.c.o.d -o CMakeFiles/libglew_static.dir/src/glew.c.o -c /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/src/glew.c
 
 lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libglew_static.dir/src/glew.c.i"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/src/glew.c > CMakeFiles/libglew_static.dir/src/glew.c.i
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/src/glew.c > CMakeFiles/libglew_static.dir/src/glew.c.i
 
 lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libglew_static.dir/src/glew.c.s"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/src/glew.c -o CMakeFiles/libglew_static.dir/src/glew.c.s
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/src/glew.c -o CMakeFiles/libglew_static.dir/src/glew.c.s
 
 # Object files for target libglew_static
 libglew_static_OBJECTS = \
@@ -93,19 +93,19 @@ libglew_static_EXTERNAL_OBJECTS =
 lib/glew/lib/libglew.a: lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o
 lib/glew/lib/libglew.a: lib/glew/CMakeFiles/libglew_static.dir/build.make
 lib/glew/lib/libglew.a: lib/glew/CMakeFiles/libglew_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libglew.a"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && $(CMAKE_COMMAND) -P CMakeFiles/libglew_static.dir/cmake_clean_target.cmake
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libglew_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library lib/libglew.a"
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && $(CMAKE_COMMAND) -P CMakeFiles/libglew_static.dir/cmake_clean_target.cmake
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libglew_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/glew/CMakeFiles/libglew_static.dir/build: lib/glew/lib/libglew.a
 .PHONY : lib/glew/CMakeFiles/libglew_static.dir/build
 
 lib/glew/CMakeFiles/libglew_static.dir/clean:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew && $(CMAKE_COMMAND) -P CMakeFiles/libglew_static.dir/cmake_clean.cmake
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew && $(CMAKE_COMMAND) -P CMakeFiles/libglew_static.dir/cmake_clean.cmake
 .PHONY : lib/glew/CMakeFiles/libglew_static.dir/clean
 
 lib/glew/CMakeFiles/libglew_static.dir/depend:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristijankorunoski/Desktop/CITS3003/Project/Project /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew/CMakeFiles/libglew_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022 /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew/CMakeFiles/libglew_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/glew/CMakeFiles/libglew_static.dir/depend
 

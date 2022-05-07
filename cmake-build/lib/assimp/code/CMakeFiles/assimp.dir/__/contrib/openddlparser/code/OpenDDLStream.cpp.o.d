@@ -1,7 +1,7 @@
 lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLStream.cpp.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/openddlparser/code/OpenDDLStream.cpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/openddlparser/include/openddlparser/OpenDDLStream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/openddlparser/include/openddlparser/OpenDDLCommon.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/openddlparser/code/OpenDDLStream.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/openddlparser/include/openddlparser/OpenDDLStream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/openddlparser/include/openddlparser/OpenDDLCommon.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \

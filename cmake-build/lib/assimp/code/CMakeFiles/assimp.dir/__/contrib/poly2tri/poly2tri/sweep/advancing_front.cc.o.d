@@ -1,7 +1,7 @@
 lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/../common/shapes.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/../common/shapes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \

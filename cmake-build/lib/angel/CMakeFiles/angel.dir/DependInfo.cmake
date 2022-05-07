@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/angel/src/InitShader.cpp" "lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o" "gcc" "lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o.d"
+  "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/angel/src/InitShader.cpp" "lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o" "gcc" "lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o.d"
   )
 
 # Targets to which this target links.

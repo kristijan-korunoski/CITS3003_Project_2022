@@ -1,5 +1,5 @@
 lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/zip/src/zip.c.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/zip/src/zip.c \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/zip/src/zip.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
@@ -70,7 +70,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/zip/src/zip.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/gethostuuid.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/zip/src/miniz.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/zip/src/miniz.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h \
@@ -114,7 +114,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/zip/src/zip.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/utime.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/zip/src/zip.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/zip/src/zip.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_short.h \

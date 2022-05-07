@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp
+# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.0-devx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/generated/assimpConfig.cmake"
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/generated/assimpConfigVersion.cmake"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/generated/assimpConfig.cmake"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/generated/assimpConfigVersion.cmake"
     )
 endif()
 
@@ -48,7 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.0-devx" OR NOT CMAKE_I
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake"
-         "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
+         "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -57,15 +57,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.0-devx" OR NOT CMAKE_I
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/code/cmake_install.cmake")
+  include("/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/code/cmake_install.cmake")
 
 endif()
 

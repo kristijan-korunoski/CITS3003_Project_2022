@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew
+# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew/lib/libglew.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew/lib/libglew.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglew.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglew.a")
     execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglew.a")
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glewConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glewConfig.cmake"
-         "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig.cmake")
+         "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glewConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -58,18 +58,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/glew/CMakeFiles/Export/lib/cmake/glew/glewConfig-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GL" TYPE FILE FILES
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/include/GL/eglew.h"
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/include/GL/glew.h"
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/include/GL/glxew.h"
-    "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/include/GL/wglew.h"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/include/GL/eglew.h"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/include/GL/glew.h"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/include/GL/glxew.h"
+    "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/include/GL/wglew.h"
     )
 endif()
 

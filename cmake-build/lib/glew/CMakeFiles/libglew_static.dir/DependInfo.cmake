@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/glew/src/glew.c" "lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o" "gcc" "lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o.d"
+  "/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/glew/src/glew.c" "lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o" "gcc" "lib/glew/CMakeFiles/libglew_static.dir/src/glew.c.o.d"
   )
 
 # Targets to which this target links.

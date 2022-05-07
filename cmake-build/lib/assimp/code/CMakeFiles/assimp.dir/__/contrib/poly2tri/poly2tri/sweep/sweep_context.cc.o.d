@@ -1,6 +1,6 @@
 lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -353,8 +353,8 @@ lib/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_c
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/contrib/poly2tri/poly2tri/sweep/../common/shapes.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/contrib/poly2tri/poly2tri/sweep/../common/shapes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \

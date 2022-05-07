@@ -1,6 +1,6 @@
 lib/assimp/code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/Material/MaterialSystem.cpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/Material/MaterialSystem.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/Material/MaterialSystem.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/Material/MaterialSystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -32,7 +32,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Hash.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Hash.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
@@ -45,11 +45,11 @@ lib/assimp/code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/strings.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ParsingUtils.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/StringComparison.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ai_assert.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/defs.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/include/assimp/config.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ParsingUtils.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/StringComparison.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ai_assert.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/defs.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/include/assimp/config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
@@ -366,7 +366,7 @@ lib/assimp/code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/StringUtils.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/StringUtils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
@@ -426,36 +426,36 @@ lib/assimp/code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/fast_atof.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/fast_atof.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultLogger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/LogStream.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/types.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/MathFunctions.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Logger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/TinyFormatter.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/NullLogger.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Exceptional.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultIOStream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOStream.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/importerdesc.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Compiler/pstdint.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/LogStream.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/types.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/MathFunctions.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Logger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/TinyFormatter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/NullLogger.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Exceptional.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultIOStream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOStream.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/importerdesc.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Compiler/pstdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/signal.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/material.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/./Compiler/pushpack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/./Compiler/poppack1.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/material.inl
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/material.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/./Compiler/pushpack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/./Compiler/poppack1.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/material.inl

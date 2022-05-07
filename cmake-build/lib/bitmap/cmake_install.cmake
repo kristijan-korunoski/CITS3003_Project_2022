@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/bitmap
+# Install script for directory: /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/bitmap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project
+CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build
+CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build
 
 # Include any dependencies generated for this target.
 include lib/angel/CMakeFiles/angel.dir/depend.make
@@ -72,16 +72,16 @@ include lib/angel/CMakeFiles/angel.dir/flags.make
 lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o: lib/angel/CMakeFiles/angel.dir/flags.make
 lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o: ../lib/angel/src/InitShader.cpp
 lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o: lib/angel/CMakeFiles/angel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o -MF CMakeFiles/angel.dir/src/InitShader.cpp.o.d -o CMakeFiles/angel.dir/src/InitShader.cpp.o -c /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/angel/src/InitShader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o"
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o -MF CMakeFiles/angel.dir/src/InitShader.cpp.o.d -o CMakeFiles/angel.dir/src/InitShader.cpp.o -c /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/angel/src/InitShader.cpp
 
 lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/angel.dir/src/InitShader.cpp.i"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/angel/src/InitShader.cpp > CMakeFiles/angel.dir/src/InitShader.cpp.i
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/angel/src/InitShader.cpp > CMakeFiles/angel.dir/src/InitShader.cpp.i
 
 lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/angel.dir/src/InitShader.cpp.s"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/angel/src/InitShader.cpp -o CMakeFiles/angel.dir/src/InitShader.cpp.s
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/angel/src/InitShader.cpp -o CMakeFiles/angel.dir/src/InitShader.cpp.s
 
 # Object files for target angel
 angel_OBJECTS = \
@@ -93,19 +93,19 @@ angel_EXTERNAL_OBJECTS =
 lib/angel/libangel.a: lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o
 lib/angel/libangel.a: lib/angel/CMakeFiles/angel.dir/build.make
 lib/angel/libangel.a: lib/angel/CMakeFiles/angel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libangel.a"
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && $(CMAKE_COMMAND) -P CMakeFiles/angel.dir/cmake_clean_target.cmake
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/angel.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libangel.a"
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && $(CMAKE_COMMAND) -P CMakeFiles/angel.dir/cmake_clean_target.cmake
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/angel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/angel/CMakeFiles/angel.dir/build: lib/angel/libangel.a
 .PHONY : lib/angel/CMakeFiles/angel.dir/build
 
 lib/angel/CMakeFiles/angel.dir/clean:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel && $(CMAKE_COMMAND) -P CMakeFiles/angel.dir/cmake_clean.cmake
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel && $(CMAKE_COMMAND) -P CMakeFiles/angel.dir/cmake_clean.cmake
 .PHONY : lib/angel/CMakeFiles/angel.dir/clean
 
 lib/angel/CMakeFiles/angel.dir/depend:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristijankorunoski/Desktop/CITS3003/Project/Project /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/angel /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel/CMakeFiles/angel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022 /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/angel /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel/CMakeFiles/angel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/angel/CMakeFiles/angel.dir/depend
 

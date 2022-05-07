@@ -1,8 +1,8 @@
 lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/glTF/glTFCommon.cpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/glTF/glTFCommon.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/Exceptional.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultIOStream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/glTF/glTFCommon.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/glTF/glTFCommon.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/Exceptional.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultIOStream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -40,8 +40,8 @@ lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOStream.hpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/types.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOStream.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/limits.h \
@@ -115,9 +115,9 @@ lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/defs.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp/include/assimp/config.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/defs.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp/include/assimp/config.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
@@ -148,11 +148,11 @@ lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
@@ -400,15 +400,15 @@ lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector2.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/vector3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/color4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix3x3.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/matrix4x4.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/MathFunctions.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/quaternion.inl \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/importerdesc.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/TinyFormatter.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector2.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/vector3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/color4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix3x3.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/matrix4x4.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/MathFunctions.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/quaternion.inl \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/importerdesc.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/TinyFormatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
@@ -447,38 +447,38 @@ lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/glTF/glTFCommon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/document.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/reader.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/allocators.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/rapidjson.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/document.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/reader.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/allocators.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/rapidjson.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/stream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/encodings.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/encodedstream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/memorystream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/clzll.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../rapidjson.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/meta.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/stack.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../allocators.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/swap.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/strtod.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/ieee754.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/biginteger.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/diyfp.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/pow10.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/error.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/../rapidjson.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/strfunc.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../stream.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/en.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ByteSwapper.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/ai_assert.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/DefaultIOSystem.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/include/assimp/IOSystem.hpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/stream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/encodings.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/encodedstream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/memorystream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/clzll.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../rapidjson.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/meta.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/stack.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../allocators.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/swap.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/strtod.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/ieee754.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/biginteger.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/diyfp.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/pow10.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/error.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/../rapidjson.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/strfunc.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/internal/../stream.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/../contrib/rapidjson/include/rapidjson/error/en.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ByteSwapper.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/ai_assert.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/include/assimp/IOSystem.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_filesec_t.h \

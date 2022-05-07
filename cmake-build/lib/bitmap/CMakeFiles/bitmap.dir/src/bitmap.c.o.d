@@ -1,8 +1,8 @@
 lib/bitmap/CMakeFiles/bitmap.dir/src/bitmap.c.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/bitmap/src/bitmap.c \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/bitmap/./include/bitmap.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/freeglut/include/GL/glut.h \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/freeglut/include/GL/freeglut_std.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/bitmap/src/bitmap.c \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/bitmap/./include/bitmap.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/freeglut/include/GL/glut.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/freeglut/include/GL/freeglut_std.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdint.h \

@@ -1,28 +1,25 @@
 varying vec2 texCoord;  // The third coordinate is always 0.0 and is discarded
-// Part G
+// Task G
 varying vec3 pos;
 varying vec3 varN;
 
 uniform sampler2D texture;
-// Part C
+// Task C
 uniform float texScale;
 
 
-// Part G
-uniform vec4 color;
+// Task G
 uniform vec3 AmbientProduct, DiffuseProduct, SpecularProduct;
 uniform vec4 LightPosition;
 uniform float Shininess;
 
 void main()
 {
-    // Part C texture movement
-    gl_FragColor = color * texture2D( texture, texCoord * texScale );
-
+    // Task G Light calculations moved to fragment shader
     // The vector to the light from the vertex    
     vec3 Lvec = LightPosition.xyz - pos;
 
-    // Part F
+    // Task F
     float distance = sqrt(Lvec[0]*Lvec[0] + Lvec[1]*Lvec[1] + Lvec[2]*Lvec[2]);
     float scaleDist = 1.0/(distance*distance);
 
@@ -38,9 +35,11 @@ void main()
     // Compute terms in the illumination equation
     vec3 ambient = AmbientProduct;
 
+    // Diffuse
     float Kd = max( dot(L, N), 0.0 );
     vec3  diffuse = Kd*DiffuseProduct;
 
+    // Specular
     float Ks = pow( max(dot(N, H), 0.0), Shininess );
     vec3  specular = Ks * SpecularProduct;
     
@@ -51,7 +50,13 @@ void main()
     // globalAmbient is independent of distance from the light source
     vec3 globalAmbient = vec3(0.1, 0.1, 0.1);
     
-    // Part F
+    // Task F & G
+    vec4 color;
     color.rgb = globalAmbient + scaleDist*(ambient + diffuse + specular);
+    // Testing for Task H
+    //color.rgb = globalAmbient + scaleDist*(specular);
     color.a = 1.0;
+
+    // Task C texture movement
+    gl_FragColor = color * texture2D( texture, texCoord * texScale );
 }

@@ -1,6 +1,6 @@
 lib/assimp/code/CMakeFiles/assimp.dir/AssetLib/MDL/HalfLife/UniqueNameGenerator.cpp.o: \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.cpp \
-  /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/lib/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.h \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.cpp \
+  /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/lib/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \

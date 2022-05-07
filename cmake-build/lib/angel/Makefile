@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project
+CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build
+CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/angel//CMakeFiles/progress.marks
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles 0
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/angel//CMakeFiles/progress.marks
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/clean
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/preinstall
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/preinstall
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/angel/CMakeFiles/angel.dir/rule:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/CMakeFiles/angel.dir/rule
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/angel/CMakeFiles/angel.dir/rule
 .PHONY : lib/angel/CMakeFiles/angel.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ angel: lib/angel/CMakeFiles/angel.dir/rule
 
 # fast build rule for target.
 angel/fast:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/build
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/build
 .PHONY : angel/fast
 
 src/InitShader.o: src/InitShader.cpp.o
@@ -180,7 +180,7 @@ src/InitShader.o: src/InitShader.cpp.o
 
 # target to build an object file
 src/InitShader.cpp.o:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.o
 .PHONY : src/InitShader.cpp.o
 
 src/InitShader.i: src/InitShader.cpp.i
@@ -188,7 +188,7 @@ src/InitShader.i: src/InitShader.cpp.i
 
 # target to preprocess a source file
 src/InitShader.cpp.i:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.i
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.i
 .PHONY : src/InitShader.cpp.i
 
 src/InitShader.s: src/InitShader.cpp.s
@@ -196,7 +196,7 @@ src/InitShader.s: src/InitShader.cpp.s
 
 # target to generate assembly for a file
 src/InitShader.cpp.s:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.s
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f lib/angel/CMakeFiles/angel.dir/build.make lib/angel/CMakeFiles/angel.dir/src/InitShader.cpp.s
 .PHONY : src/InitShader.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

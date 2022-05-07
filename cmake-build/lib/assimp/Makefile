@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project
+CMAKE_SOURCE_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build
+CMAKE_BINARY_DIR = /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/lib/assimp//CMakeFiles/progress.marks
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build/CMakeFiles 0
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/lib/assimp//CMakeFiles/progress.marks
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/clean
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/preinstall
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/preinstall
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/assimp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/Project/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kristijankorunoski/Desktop/CITS3003/Project/CITS3003_Project_2022/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
