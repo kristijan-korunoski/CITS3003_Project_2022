@@ -1,3 +1,5 @@
+// Kristijan Korunoski - 22966841
+// Luke Kirkby - 22885101
 
 #include "Angel.h"
 
@@ -70,6 +72,7 @@ typedef struct {
     int meshId;
     int texId;
     float texScale;
+    float cutOff;
 } SceneObject;
 
 const int maxObjects = 1024; // Scenes with more than 1024 objects seem unlikely
@@ -290,6 +293,82 @@ static void addObject(int id) {
     glutPostRedisplay();
 }
 
+// Task J duplication
+static void dupeObject(int id) {
+    //Change to 3 when 3rd light is implemented
+    if(id > 2){
+    vec2 currPos = currMouseXYworld(camRotSidewaysDeg);
+    sceneObjs[nObjects].loc[0] = sceneObjs[id].loc[0] + 1.0;
+    sceneObjs[nObjects].loc[1] = sceneObjs[id].loc[1];
+    sceneObjs[nObjects].loc[2] = sceneObjs[id].loc[2];
+    sceneObjs[nObjects].loc[3] = sceneObjs[id].loc[3];
+
+    sceneObjs[nObjects].rgb[0] = sceneObjs[id].rgb[0];
+    sceneObjs[nObjects].rgb[1] = sceneObjs[id].rgb[1];
+    sceneObjs[nObjects].rgb[2] = sceneObjs[id].rgb[2];
+    sceneObjs[nObjects].brightness = sceneObjs[id].brightness;
+
+    sceneObjs[nObjects].diffuse = sceneObjs[id].diffuse;
+    sceneObjs[nObjects].specular = sceneObjs[id].specular;
+    sceneObjs[nObjects].ambient = sceneObjs[id].ambient;
+    sceneObjs[nObjects].shine = sceneObjs[id].shine;
+
+    sceneObjs[nObjects].angles[0] = sceneObjs[id].angles[0];
+    sceneObjs[nObjects].angles[1] = sceneObjs[id].angles[1];
+    sceneObjs[nObjects].angles[2] = sceneObjs[id].angles[2];
+
+    sceneObjs[nObjects].scale = sceneObjs[id].scale;
+    sceneObjs[nObjects].meshId = sceneObjs[id].meshId;
+    sceneObjs[nObjects].texId = sceneObjs[id].texId;
+    sceneObjs[nObjects].texScale = sceneObjs[id].texScale;
+
+    toolObj = currObject = nObjects++;
+    setToolCallbacks(adjustLocXZ, camRotZ(),
+                     adjustScaleY, mat2(0.05, 0, 0, 10.0));
+    glutPostRedisplay();
+    }
+}
+
+// Task J delete
+static void deleteObject(int id){
+    //Chnge to 3 when 3rd light is implemented
+    if(id > 2){
+
+    vec2 currPos = currMouseXYworld(camRotSidewaysDeg);
+    sceneObjs[nObjects].loc[0] = NULL;
+    sceneObjs[nObjects].loc[1] = NULL;
+    sceneObjs[nObjects].loc[2] = NULL;
+    sceneObjs[nObjects].loc[3] = NULL;
+
+    sceneObjs[nObjects].rgb[0] = NULL;
+    sceneObjs[nObjects].rgb[1] = NULL;
+    sceneObjs[nObjects].rgb[2] = NULL;
+    sceneObjs[nObjects].brightness = NULL;
+
+    sceneObjs[nObjects].diffuse = NULL;
+    sceneObjs[nObjects].specular = NULL;
+    sceneObjs[nObjects].ambient = NULL;
+    sceneObjs[nObjects].shine = NULL;
+
+    sceneObjs[nObjects].angles[0] = NULL;
+    sceneObjs[nObjects].angles[1] = NULL;
+    sceneObjs[nObjects].angles[2] = NULL;
+
+    sceneObjs[nObjects].meshId = NULL;
+    sceneObjs[nObjects].texId = NULL;
+    sceneObjs[nObjects].texScale = NULL;
+
+    toolObj--;
+    currObject--;
+    nObjects--;
+    setToolCallbacks(adjustLocXZ, camRotZ(),
+                     adjustScaleY, mat2(0.05, 0, 0, 10.0));
+    glutPostRedisplay();
+    }
+    else{
+        printf("Tried to delete light and/or floor\n");
+    }
+}
 //------The init function-----------------------------------------------------
 
 void init(void) {
@@ -339,6 +418,26 @@ void init(void) {
     sceneObjs[1].scale = 0.1;
     sceneObjs[1].texId = 0; // Plain texture
     sceneObjs[1].brightness = 0.2; // The light's brightness is 5 times this (below).
+
+    // Task I
+    // Light 2
+    addObject(55); // Sphere for the second light
+    sceneObjs[2].loc = vec4(3.0, 4.0, 2.0, 1.0);
+    sceneObjs[2].scale = 0.1;
+    sceneObjs[2].texId = 0; // Plain texture
+    sceneObjs[2].brightness = 0.2; // The light's brightness is 5 times this (below).
+
+    // Task J Light
+    //Light 3
+    addObject(55); // Sphere for the third light
+    sceneObjs[3].loc = vec4(1.0, 1.0, 2.0, 1.0);
+    sceneObjs[3].angles[0] = 0.0;
+    sceneObjs[3].angles[1] = 90.0;
+    sceneObjs[3].angles[2] = 0.0;
+    sceneObjs[3].scale = 0.1;
+    sceneObjs[3].texId = 0; // Plain texture
+    sceneObjs[3].brightness = 0.2; // The light's brightness is 5 times this (below).
+    sceneObjs[3].cutOff = 0.9; //Angle at which light is cut off from emitting
 
     addObject(rand() % numMeshes); // A test mesh
 
@@ -399,7 +498,7 @@ void drawMesh(SceneObject sceneObj) {
 
 //----------------------------------------------------------------------------
 
-// Contians Task A
+// Contians Task A & Task H
 void display(void) {
     numDisplayCalls++;
 
@@ -415,22 +514,63 @@ void display(void) {
     SceneObject lightObj1 = sceneObjs[1];
     vec4 lightPosition = view * lightObj1.loc;
 
+    // Task I
+    // Light 2
+    SceneObject lightObj2 = sceneObjs[2];
+    vec4 lightPosition2 = view * lightObj2.loc;
+
+    // Task J Light
+    // Light 3
+    SceneObject lightObj3 = sceneObjs[3];
+    float L3pitch = lightObj3.angles[1];
+    float L3yaw = lightObj3.angles[2];
+    vec4 lightPosition3 = view * lightObj3.loc;
+
     glUniform4fv(glGetUniformLocation(shaderProgram, "LightPosition"),
                  1, lightPosition);
+    CheckError();
+    // Task I
+    // Light 2
+    glUniform4fv(glGetUniformLocation(shaderProgram, "LightPosition2"),
+                 1, lightPosition2);
+    CheckError();
+
+    // Task J Light
+    //Light 3
+    glUniform4fv(glGetUniformLocation(shaderProgram, "LightPosition3"),
+                 1, lightPosition3);
+    // Task J Pass Light 3 specific variables
+    glUniform1f(glGetUniformLocation(shaderProgram, "Light3CutOff"), lightObj3.cutOff);
+    glUniform1f(glGetUniformLocation(shaderProgram, "L3pitch"), L3pitch);
+    glUniform1f(glGetUniformLocation(shaderProgram, "L3yaw"), L3yaw);
     CheckError();
 
     for (int i = 0; i < nObjects; i++) {
         SceneObject so = sceneObjs[i];
 
-        vec3 rgb = so.rgb * lightObj1.rgb * so.brightness * lightObj1.brightness * 2.0;
-        vec3 bw = so.brightness * lightObj1.brightness;
-        glUniform3fv(glGetUniformLocation(shaderProgram, "AmbientProduct"), 1, so.ambient * rgb);
+        // Task I & J
+        // Light 2 & 3
+        // Adding light 2 brightness
+        vec3 rgb_l1 = so.rgb * lightObj1.rgb * so.brightness * lightObj1.brightness * 2.0;
+        vec3 rgb_l2 = so.rgb * lightObj2.rgb * so.brightness * lightObj2.brightness * 2.0;
+        vec3 rgb_l3 = so.rgb * lightObj3.rgb * so.brightness * lightObj3.brightness * 2.0;
+        // Task H
+        vec3 bw_l1 = so.brightness * lightObj1.brightness;
+        vec3 bw_l2 = so.brightness * lightObj2.brightness;
+        vec3 bw_l3 = so.brightness * lightObj3.brightness;
+        glUniform3fv(glGetUniformLocation(shaderProgram, "AmbientProduct"), 1, so.ambient * rgb_l1);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "AmbientProduct2"), 1, so.ambient * rgb_l2);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "AmbientProduct3"), 1, so.ambient * rgb_l3);
         CheckError();
-        glUniform3fv(glGetUniformLocation(shaderProgram, "DiffuseProduct"), 1, so.diffuse * rgb);
-        glUniform3fv(glGetUniformLocation(shaderProgram, "SpecularProduct"), 1, so.specular * bw);
-        glUniform1f(glGetUniformLocation(shaderProgram, "Shininess"), so.shine);
-        CheckError();
+        glUniform3fv(glGetUniformLocation(shaderProgram, "DiffuseProduct"), 1, so.diffuse * rgb_l1);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "DiffuseProduct2"), 1, so.diffuse * rgb_l2);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "DiffuseProduct3"), 1, so.diffuse * rgb_l3);
+        // Task H
+        glUniform3fv(glGetUniformLocation(shaderProgram, "SpecularProduct"), 1, so.specular * bw_l1);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "SpecularProduct2"), 1, so.specular * bw_l2);
+        glUniform3fv(glGetUniformLocation(shaderProgram, "SpecularProduct3"), 1, so.specular * bw_l3);
 
+        glUniform1f(glGetUniformLocation(shaderProgram, "Shininess"), so.shine);
         drawMesh(sceneObjs[i]);
     }
 
@@ -487,6 +627,13 @@ static void adjustBlueBrightness(vec2 bl_br) {
     sceneObjs[toolObj].brightness += bl_br[1];
 }
 
+// Task J Light movement function
+static void RotateLight(vec2 xz)
+{
+    sceneObjs[toolObj].angles[2]+=-20*xz[0]; 
+    sceneObjs[toolObj].angles[1]+=-20*xz[1];
+}
+
 static void lightMenu(int id) {
     deactivateTool();
     if (id == 70) {
@@ -497,6 +644,30 @@ static void lightMenu(int id) {
         toolObj = 1;
         setToolCallbacks(adjustRedGreen, mat2(1.0, 0, 0, 1.0),
                          adjustBlueBrightness, mat2(1.0, 0, 0, 1.0));
+    // Task I
+    // Light 2
+    } else if (id == 80) {
+        toolObj = 2;
+        setToolCallbacks(adjustLocXZ, camRotZ(),
+                         adjustBrightnessY, mat2(1.0, 0.0, 0.0, 10.0));
+    } else if (id >= 81 && id <= 84) {
+        toolObj = 2;
+        setToolCallbacks(adjustRedGreen, mat2(1.0, 0, 0, 1.0),
+                         adjustBlueBrightness, mat2(1.0, 0, 0, 1.0));
+    // Task J
+    // Light 3
+    } else if (id == 90) {
+        toolObj = 3;
+        setToolCallbacks(adjustLocXZ, camRotZ(), // Task J spotlight movement
+                         adjustBrightnessY, mat2(1.0, 0.0, 0.0, 10.0));
+    } else if (id == 91) {
+        toolObj = 3;
+        setToolCallbacks(adjustRedGreen, mat2(1.0, 0, 0, 1.0),
+                         adjustBlueBrightness, mat2(1.0, 0, 0, 1.0));
+    } else if (id == 92){
+    	toolObj = 3;
+    	setToolCallbacks(RotateLight, camRotZ(), // Task J spotlight rotation
+                         adjustBrightnessY, mat2( 1.0, 0.0, 0.0, 10.0) );
     } else {
         printf("Error in lightMenu\n");
         exit(1);
@@ -560,6 +731,12 @@ static void mainmenu(int id) {
         setToolCallbacks(adjustLocXZ, camRotZ(),
                          adjustScaleY, mat2(0.05, 0, 0, 10));
     }
+    if(id == 80085){
+        dupeObject(toolObj);
+    }
+    if(id == 666){
+        deleteObject(toolObj);
+    }
     if (id == 50)
         doRotate();
     if (id == 55 && currObject >= 0) {
@@ -572,11 +749,13 @@ static void mainmenu(int id) {
 // Contains Task C
 static void makeMenu() {
     int objectId = createArrayMenu(numMeshes, objectMenuEntries, objectMenu);
+    
+    int dupeMenuId = glutCreateMenu(dupeObject);
 
     int materialMenuId = glutCreateMenu(materialMenu);
     glutAddMenuEntry("R/G/B/All", 10);
 
-    // Task C
+    // Task C change menu entry name
     glutAddMenuEntry("Ambient/Diffuse/Specular/Shine", 20);
 
     int texMenuId = createArrayMenu(numTextures, textureMenuEntries, texMenu);
@@ -585,12 +764,19 @@ static void makeMenu() {
     int lightMenuId = glutCreateMenu(lightMenu);
     glutAddMenuEntry("Move Light 1", 70);
     glutAddMenuEntry("R/G/B/All Light 1", 71);
+    // Task I
     glutAddMenuEntry("Move Light 2", 80);
     glutAddMenuEntry("R/G/B/All Light 2", 81);
+    // Task J Menu entries
+    glutAddMenuEntry("Move Light 3", 90);
+    glutAddMenuEntry("R/G/B/All Light 3", 91);
+    glutAddMenuEntry("Rotate Light 3", 92);
 
     glutCreateMenu(mainmenu);
     glutAddMenuEntry("Rotate/Move Camera", 50);
     glutAddSubMenu("Add object", objectId);
+    glutAddMenuEntry("Duplicate Current Object", 80085);
+    glutAddMenuEntry("Delete Current Object", 666);
     glutAddMenuEntry("Position/Scale", 41);
     glutAddMenuEntry("Rotation/Texture Scale", 55);
     glutAddSubMenu("Material", materialMenuId);

@@ -1,3 +1,6 @@
+// Kristijan Korunoski - 22966841
+// Luke Kirkby - 22885101
+
 attribute vec3 vPosition;
 attribute vec3 vNormal;
 attribute vec2 vTexCoord;
