@@ -19,23 +19,23 @@ Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
 Info,  T0: JoinVerticesProcess finished | Verts in: 240 out: 76 | ~68.3333
 Info,  T0: Cache relevant are 1 meshes (80 faces). Average output ACMR is 0.95
 Info,  T0: Leaving post processing pipeline
-Info,  T0: Load res/models-textures/model23.x
+Info,  T0: Load res/models-textures/model13.x
 Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
 Info,  T0: Import root directory is 'res/models-textures/'
 Info,  T0: Entering post processing pipeline
 Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
 Info,  T0: FindInvalidDataProcess finished. Found issues ...
 Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
-Info,  T0: JoinVerticesProcess finished | Verts in: 26994 out: 8168 | ~69.7414
-Info,  T0: Cache relevant are 1 meshes (8998 faces). Average output ACMR is 1.04323
+Info,  T0: JoinVerticesProcess finished | Verts in: 17397 out: 5049 | ~70.9778
+Info,  T0: Cache relevant are 1 meshes (5799 faces). Average output ACMR is 0.989998
 Info,  T0: Leaving post processing pipeline
-Info,  T0: Load res/models-textures/model32.x
+Info,  T0: Load res/models-textures/model12.x
 Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
 Info,  T0: Import root directory is 'res/models-textures/'
 Info,  T0: Entering post processing pipeline
 Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
 Info,  T0: FindInvalidDataProcess finished. Found issues ...
 Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
-Info,  T0: JoinVerticesProcess finished | Verts in: 9579 out: 2886 | ~69.8716
-Info,  T0: Cache relevant are 1 meshes (3193 faces). Average output ACMR is 1.0332
+Info,  T0: JoinVerticesProcess finished | Verts in: 22050 out: 6343 | ~71.2336
+Info,  T0: Cache relevant are 1 meshes (7350 faces). Average output ACMR is 1.00571
 Info,  T0: Leaving post processing pipeline
