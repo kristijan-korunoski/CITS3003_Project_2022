@@ -9,4 +9,4 @@ This project was compiled on MacOS
 
 A simple scene editor that allows a collection of objects to be arranged in a scene and various properties of them to be changed, such as colour, shininess, and texture.
 
-#### CITS3003 Project
+#### UWA CITS3003 Project
